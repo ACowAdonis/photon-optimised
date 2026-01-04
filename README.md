@@ -2,7 +2,7 @@
 
 A customised fork of [Photon Shaders](https://github.com/sixthsurge/photon) by SixthSurge, with environmental immersion enhancements and mod integrations.
 
-![Screenshot](docs/images/rainbow.png)
+![Screenshot](docs/images/autumn.png)
 
 ## About This Fork
 
@@ -57,19 +57,25 @@ This is a modified version of Photon Shaders optimised for immersive gameplay wi
 
 ## Requirements
 
-- [Iris Shaders](https://irisshaders.dev/download) (recommended) or [OptiFine](https://optifine.net/home)
-- Minecraft 1.16.5 or above
+This shader is developed for and tested with the [Au Naturel](https://www.curseforge.com/minecraft/modpacks/au-naturel) modpack on Forge 1.20.1. It requires the customised [Oculus - Au Naturel Edit](https://www.curseforge.com/minecraft/mc-mods/oculus-au-naturel-edit) which provides additional uniforms for mod integrations.
 
-### Optional Mod Integrations
-- [Serene Seasons](https://www.curseforge.com/minecraft/mc-mods/serene-seasons) - For seasonal lighting effects
-- [Cold Sweat](https://www.curseforge.com/minecraft/mc-mods/cold-sweat) - For temperature-based visual effects
+**Not compatible with OptiFine or standard Iris/Oculus.**
+
+No claims are made about general compatibility outside the Au Naturel modpack environment.
+
+### Mod Integrations (included in Au Naturel)
+- [Serene Seasons](https://www.curseforge.com/minecraft/mc-mods/serene-seasons) - Seasonal lighting effects
+- [Cold Sweat](https://www.curseforge.com/minecraft/mc-mods/cold-sweat) - Temperature-based visual effects
 - [Distant Horizons](https://www.curseforge.com/minecraft/mc-mods/distant-horizons) - Extended render distance support
 
 ## Installation
 
-1. Install Iris or OptiFine
-2. Download the shader pack from this repository
-3. Place the zip file in your `.minecraft/shaderpacks` folder
+**For Au Naturel modpack users:** The shader is included with the modpack.
+
+**For manual installation from this repository:**
+1. Ensure you are running Forge 1.20.1 with [Oculus - Au Naturel Edit](https://www.curseforge.com/minecraft/mc-mods/oculus-au-naturel-edit)
+2. Download or clone this repository
+3. Zip the contents and place in your `.minecraft/shaderpacks` folder
 4. Select the shader in-game
 
 ## Configuration
@@ -85,7 +91,7 @@ Many of the new features can be configured in the shader settings:
 - Fully revamped sky, lighting and water
 - Detailed clouds with many layers and cloud types
 - Immersive weather system providing different skies each day
-- Voxel-based colored lighting (enabled with Ultra profile, requires Iris)
+- Voxel-based colored lighting (enabled with Ultra profile)
 - Screen-space reflections
 - Volumetric fog
 - Soft shadows with variable-size penumbras
@@ -98,9 +104,9 @@ Many of the new features can be configured in the shader settings:
 
 ## Compatibility
 
+- Tested on Forge 1.20.1 with the Au Naturel modpack
+- Requires [Oculus - Au Naturel Edit](https://www.curseforge.com/minecraft/mc-mods/oculus-au-naturel-edit)
 - Nvidia, AMD and Intel GPUs
-- Iris version 1.5 and above
-- OptiFine on Minecraft 1.16.5 and above
 - Compatible with Distant Horizons
 - Apple Metal: Disable *SH Skylight* and *Colored Shadows*
 
